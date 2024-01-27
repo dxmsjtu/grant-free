@@ -1,16 +1,7 @@
 %This Matlab function was developed to generate simulation results to:
-%
-%Unnikrishnan Kunnath Ganesan, Emil Björnson and Erik G. Larsson (2021), 
+%Unnikrishnan Kunnath Ganesan, Emil Bjï¿½rnson and Erik G. Larsson (2021), 
 %"Clustering Based Activity Detection Algorithms for Grant-Free Random
-% Access in Cell-Free Massive MIMO", 
-%IEEE Transactions in Communications
-%
-%
-%License: This code is licensed under the GPLv2 license. If you in any way
-%use this code for research that results in publications, please cite our
-%paper as described above.
-
-
+% Access in Cell-Free Massive MIMO", IEEE Transactions in Communications
 function [dist] = wraptopology(AP,UT,D)
 %Here we consider a wrap toplogy and try to find the minimum distance
 %between the AP and UT in wrap topology network rather than considering
